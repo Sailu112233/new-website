@@ -1,0 +1,59 @@
+.name{
+    color: rgb(44, 29, 29);
+    
+}
+
+
+.roll{
+    background-color: rgb(113, 66, 104);
+}
+
+.rol2{
+    background-color: rgb(67, 45, 45);
+}
+.header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.input{
+    font-family: "Press Start 2P", cursive;
+  font-size: 24px;
+  color: #2b1d14;
+  letter-spacing: 2px;
+}
+
+.nav {
+  margin-left: 24px;
+  color: #724766;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav:hover {
+  color: #c0392b;
+}
+
+.nav  {
+  color: #2b1d14;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  margin-left: 24px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.nav :hover {
+  color: #724766;
+  border-bottom-color: #724766;
+}
+
+/* ទំព័រដែលកំពុងបើក */
+.nav .active {
+  color: #724766;
+  border-bottom-color: #724766;
+}
